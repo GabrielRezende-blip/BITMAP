@@ -59,7 +59,7 @@ header {
     font-size: 54px;
 }
 #galerrycenter>#txt2{
-    margin-left: 15%;
+    margin-left: 22%;
 }
 #categoriacenter {
     display: flex;
@@ -72,207 +72,116 @@ header {
     height: 230vh;
     background-color: #f9f9ff;
 }
-
-#categorias {
+#categoriaservice {
+    height: 230vh;
+    background-color: #f9f9ff;
+}
+#why {
     background-color: white;
-    border-style: none;
-    display: flex;
-    justify-content: center;
-    height: 5vh;
-    width: 60%;
-}
-
-#categorias>a {
-    border-left: 0.1px solid #777777;
-    font-size: 12px;
-    font-weight: 600;
-    font-family: "poppins", sans-serif;
-    text-decoration: none;
-    color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 125px;
-    background-color: white;
-    transition: 0.5s;
-}
-
-#unviwed {
-    border-right: 0.1px solid;
-}
-
-#categorias>a:hover {
-    background-color: #fcdc00;
-    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.1);
-}
-
-#imggaleriacenter {
+    height: 115vh;
     width: 100%;
-    display: flex;
-    justify-content: center;
-
+    position: relative;
 }
 
-#imagens {
+#centro {
+    position: absolute;
+    top: 6%;
+    left: 30%;
+    width: 50%;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    height: 100vh;
-    width: 85%;
 }
 
-#imagens>img {
-    margin-top: 25px;
-    height: 46%;
-    width: 24%;
+#centro>div {
+    margin-top: 110px;
+    height: 10vh;
+    width: 55%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.galeria {
-    display: relative;
-    margin-bottom: 35px;
-}
-
-#galeria1 {
-    position: relative;
-    margin-bottom: 35px;
-    transition: 0.5s;
-}
-
-#galeria1>span {
-    color: white;
-    text-decoration: none;
-    position: absolute;
-    top: 76%;
-    left: 19%;
+#why1 {
     font-family: "poppins", sans-serif;
-    font-weight: 600;
-    font-size: 19px;
-    transition: 0.5s;
-}
-
-#galeria1>.svggaleria {
-    height: 4vh;
-    position: absolute;
-    top: 78%;
-    left: 44%;
-    fill: white;
-    opacity: 0;
-    transition: 0.5s;
-}
-
-#galeria1:hover img {
-    filter: brightness(50%);
-}
-
-#galeria1:hover .svggaleria {
-    opacity: 1;
-    top: 45%;
-}
-
-#galeria1:hover span {
-    top: 30%;
-}
-
-#imagens>img~svg {
-    font-family: "poppins", sans-serif;
-    position: absolute;
-    left: -20vh;
-    top: 0vh;
+    font-size: 34px;
     color: black;
-}
-
-
-#espace {
-    display: flex;
-    justify-content: space-around;
-}
-
-.galeria {
-    display: relative;
-    margin-bottom: 35px;
-}
-
-.galeria {
-    position: relative;
-    margin-bottom: 35px;
-    transition: 0.5s;
-}
-
-.galeria>span {
-    color: white;
-    text-decoration: none;
-    position: absolute;
-    top: 76%;
-    left: 19%;
-    font-family: "poppins", sans-serif;
     font-weight: 600;
-    font-size: 19px;
-    transition: 0.5s;
 }
 
-.galeria>.svggaleria {
-    height: 4vh;
-    position: absolute;
-    top: 78%;
-    left: 44%;
-    fill: white;
-    opacity: 0;
-    transition: 0.5s;
+#why2 {
+    font-family: "poppins", sans-serif;
+    color: #777777;
+    font-size: 14px;
 }
-
-.galeria:hover img {
-    filter: brightness(50%);
-}
-
-.galeria:hover .svggaleria {
-    opacity: 1;
-    top: 45%;
-}
-
-.galeria:hover span {
-    top: 30%;
-}
-#loadcenter{
-    height: 1vh;
+#lacenter{
     width: 100%;
-    display: flex;
-    justify-content: center;
-}
-#load {
-    background-color: #fcdc00;
-    height: 40px;
-    width: 10%;
+    height: 80%;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 55vh;
+}
+.center {
+
+    width: 85%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
 }
 
-#load>a {
+.center > .uaiso {
+    margin-top: 1%;
+    margin-left: 1%;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    font-family: "poppins", sans-serif;
     font-size: 14px;
+    border: 1px ridge;
+    height: 60%;
+    width: 25%;
+    justify-content: center;
+    box-sizing: border-box;
+    flex-direction: column;
+    transition: 0.5s;
+}
+.uaiso> a{
+    font-size: 20px;
+    margin-bottom: 5%;
     text-decoration: none;
     color: black;
-    font-family: "poppins", sans-serif;
     font-weight: 600;
 }
-#followcenter{
-    width: 100%;
-    background-color: white;
-    display: flex;
+.uaiso> span{
+    color: #777777;
+    flex-direction: column;
     justify-content: center;
 }
-#follow {
+.uaiso:hover{
     background-color: #fcdc00;
-    padding: 14px;
+}
+.uaiso>svg{
+
+    height: 25%;
+    width: 35%;
+    margin-bottom: 10%;
+}
+#follow {
+    padding: 10px;
+    background-color: #fcdc00;
     height: 4%;
     width: 13%;
     display: flex;
     align-items: center;
     justify-content: center;
+    position: absolute;
+    top: 95%;
+    left: 43%;
     transition: 0.5s;
     margin-bottom: 0;
-    z-index: 99;
 }
 
 #follow>a {
@@ -288,14 +197,14 @@ header {
 #branco{
     background-color: white;
     width: 100%;
-    height: 40vh;
+    height: 50vh;
     display: flex;
     justify-content: center;
 }
 #instafotos{
     display: flex;
     justify-content: center;
-
+   
     background-color: white;
     width: 80%;
     height: 100%;
@@ -305,29 +214,18 @@ header {
     transition: 0.5s;
 }
 .insta{
-    overflow: hidden;
+     overflow: hidden;
     width: 120%;
 }
 .insta> img{
-    overflow: hidden;
     height:32vh;
     width: 110%;
     transition: all 300ms ease;
 }
 .insta:hover img{
-   transform: scale(1.05);
-}
 
-#rodape{
-    background-color: #04091e;
-    height: 60vh;
-    width: 100%;
-}
-#why {
-    background-color: white;
-    height: 40vh;
-    width: 100%;
-    position: relative;
+
+   transform: scale(1.05);
 }
 #rodape {
     background-color: #04091e;
@@ -428,12 +326,6 @@ header {
     margin-bottom: 15%;
     font-family: "poppins", sans-serif;
     font-size: 18px;
-}
-#followcenter{
-    background-color: white;
-    width: 100%;
-    display: flex;
-    justify-content: center;
 }
 #drop-list {
     position: relative;
